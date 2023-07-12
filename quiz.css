@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Teko', sans-serif;
+    background-color: #faa499;
+    background-image: linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-container {
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    padding: 0.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+ul li label{
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-family: inherit;
+    color: white;
+    background-color: #2d3436;
+    border:  none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
